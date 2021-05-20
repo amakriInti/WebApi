@@ -10,7 +10,7 @@ namespace TPWebApi.Service.Controllers
     public class ValuesController : ApiController
     {
         // GET api/values
-        public IEnumerable<Employe> Get(Guid id)
+        public IEnumerable<Employe> Get(Guid id) 
         {
             var cnx = new SqlConnection();
 
