@@ -17,7 +17,7 @@ namespace DemoWebApi.Client
             client.BaseAddress = new Uri("https://restcountries.eu/rest/v2/");
             var reponse = client.GetAsync("all");
             reponse.Wait();
-            var result = reponse.Result;
+            var result = reponse.Result; 
             if (result.IsSuccessStatusCode)
             {
                 var reader = result.Content.ReadAsStringAsync();
