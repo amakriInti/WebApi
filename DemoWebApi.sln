@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApi.Client", "DemoWebApi.Client\DemoWebApi.Client.csproj", "{422D4C9C-58AE-4925-B1F4-A6EAC158518A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApi.Service", "DemoWebApi.Service\DemoWebApi.Service.csproj", "{64C6B546-3B75-4101-A2EB-36CA65D98101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApi.Client2", "DemoWebApi.Client2\DemoWebApi.Client2.csproj", "{9513CA69-8F2E-45CE-8A3B-9A11FBA9A0AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exo1", "Exo1\Exo1.csproj", "{CDA3568C-6CF5-43E6-A84C-0F0BD5D6CF6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPWebApi.Client", "TPWebApi.Client\TPWebApi.Client.csproj", "{F114E564-7CC8-4F5B-A70E-E7B41C954D4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPWebApi.Service", "TPWebApi.Service\TPWebApi.Service.csproj", "{0CF7AF23-B14D-422F-ABE9-F17695AC536C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{422D4C9C-58AE-4925-B1F4-A6EAC158518A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{422D4C9C-58AE-4925-B1F4-A6EAC158518A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{422D4C9C-58AE-4925-B1F4-A6EAC158518A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C6B546-3B75-4101-A2EB-36CA65D98101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C6B546-3B75-4101-A2EB-36CA65D98101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C6B546-3B75-4101-A2EB-36CA65D98101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C6B546-3B75-4101-A2EB-36CA65D98101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9513CA69-8F2E-45CE-8A3B-9A11FBA9A0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9513CA69-8F2E-45CE-8A3B-9A11FBA9A0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9513CA69-8F2E-45CE-8A3B-9A11FBA9A0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9513CA69-8F2E-45CE-8A3B-9A11FBA9A0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA3568C-6CF5-43E6-A84C-0F0BD5D6CF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA3568C-6CF5-43E6-A84C-0F0BD5D6CF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA3568C-6CF5-43E6-A84C-0F0BD5D6CF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA3568C-6CF5-43E6-A84C-0F0BD5D6CF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F114E564-7CC8-4F5B-A70E-E7B41C954D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F114E564-7CC8-4F5B-A70E-E7B41C954D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F114E564-7CC8-4F5B-A70E-E7B41C954D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F114E564-7CC8-4F5B-A70E-E7B41C954D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF7AF23-B14D-422F-ABE9-F17695AC536C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF7AF23-B14D-422F-ABE9-F17695AC536C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF7AF23-B14D-422F-ABE9-F17695AC536C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF7AF23-B14D-422F-ABE9-F17695AC536C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

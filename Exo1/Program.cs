@@ -6,16 +6,15 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoWebApi.Client
+namespace Exo1
 {
     class Program
     {
         static void Main(string[] args)
-        {
-            // https://restcountries.eu/rest/v2/all
+        {            
             var client = new HttpClient();
-            client.BaseAddress = new Uri("https://restcountries.eu/rest/v2/");
-            var reponse = client.GetAsync("all");
+            client.BaseAddress = new Uri("https://restcountries.eu/rest/v2/alpha?codes=col;no;ee;fr;gb;ch");
+            var reponse = client.GetAsync("");
             reponse.Wait();
             var result = reponse.Result;
             if (result.IsSuccessStatusCode)
@@ -25,23 +24,18 @@ namespace DemoWebApi.Client
 
                 var data = JsonConvert.DeserializeObject<Pays[]>(reader.Result);
 
-                foreach (var pays in data.Where(p => p.Languages.FirstOrDefault(l => l.Name == "French") != null))
+                foreach (var pays in data)
                 {
                     Console.WriteLine(pays.Name);
                 }
                 Console.ReadLine();
             }
+
         }
     }
     public class Pays
     {
         public string Name;
-        public string Region;
-        public List<Langue> Languages;
     }
-    public class Langue
-    {
-        public string Name;
-        public string NativeName;
-    }
+
 }
